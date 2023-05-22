@@ -48,7 +48,7 @@ window.addEventListener('resize', onWindowResize, false);
 
 // Animation loop
 let lastTime = 0;
-const rotationSpeed = 0.00005;
+const rotationSpeed = 0.000005;
 
 function animate(time) {
     const delta = time - lastTime;
